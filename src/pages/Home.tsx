@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";  // import css file
 import bitmoji from "../assets/bitmoji.gif"; // import bitmoji gif
-import { Link, NavLink } from "react-router-dom";
 const Home: React.FC = () => {
   return (
     <section className="home-section d-flex align-items-center">
