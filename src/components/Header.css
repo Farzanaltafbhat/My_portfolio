@@ -1,0 +1,79 @@
+/* Futuristic glass navbar */
+.futuristic-nav {
+  background: rgba(10, 25, 47, 0.7);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+}
+
+/* Glowing logo */
+.text-glow {
+  color: #00eaff !important;
+  text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
+}
+
+/* Futuristic links */
+.futuristic-link {
+  color: #e0f7fa !important;   /* visible on dark */
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+.futuristic-link:hover {
+  color: #00eaff !important;
+  text-shadow: 0 0 8px #00eaff;
+}
+
+/* Active link */
+.futuristic-link.active {
+  color: #00eaff !important;
+  font-weight: 600;
+}
+
+/* Resume button */
+.btn-futuristic {
+  background: linear-gradient(45deg, #00eaff, #3a7bd5);
+  border-radius: 25px;
+  color: #fff !important;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.btn-futuristic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 234, 255, 0.9);
+}
+
+/* Mobile toggle icon */
+.custom-toggler {
+  border: none;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='cyan' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+/* Base futuristic navbar */
+.futuristic-nav {
+  background: rgba(10, 25, 47, 0.7); /* semi-transparent dark */
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+  transition: background 0.3s ease;
+}
+
+/* Mobile dropdown transparent background */
+@media (max-width: 991px) {
+  .mobile-menu {
+    text-align: center;
+    background: rgba(192, 198, 207, 0.5); /* lighter transparent */
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+  .mobile-menu .navbar-nav {
+    flex-direction: column;
+    align-items: center;  /* centers items horizontally */
+  }
+
+  .mobile-menu .nav-item {
+    margin: 0.5rem 0;
+  }
+}

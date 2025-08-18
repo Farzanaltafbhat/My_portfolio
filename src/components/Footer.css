@@ -1,0 +1,54 @@
+.footer-section {
+  background: rgba(10, 25, 47, 0.8);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(0, 255, 255, 0.2);
+  color: #cdebf9;
+  margin-top: auto;
+}
+
+/* Footer links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.footer-link {
+  color: #cdebf9;
+  font-weight: 500;
+  transition: color 0.3s, text-shadow 0.3s;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #00eaff;
+  text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
+}
+
+/* Social icons */
+.social-icons a {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  color: #cdebf9;
+  transition: transform 0.3s, color 0.3s, text-shadow 0.3s;
+}
+.social-icons a:hover {
+  color: #00eaff;
+  transform: scale(1.2);
+  text-shadow: 0 0 15px #00eaff;
+}
+
+/* Copy text */
+.footer-copy {
+  font-size: 0.9rem;
+  color: #a9c8e3;
+}
+
+/* Neon glow (reuse theme) */
+.text-glow {
+  color: #00eaff !important;
+  text-shadow: 0 0 8px #00eaff, 0 0 15px #00eaff;
+}
