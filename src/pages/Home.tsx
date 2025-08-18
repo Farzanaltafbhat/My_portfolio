@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";  // import css file
 import bitmoji from "../assets/bitmoji.gif"; // import bitmoji gif
+import { Link } from "react-router-dom";
 const Home: React.FC = () => {
   return (
     <section className="home-section d-flex align-items-center">
@@ -30,9 +31,9 @@ const Home: React.FC = () => {
               <span className="fw-semibold">technology</span> to create
               innovative solutions.
             </p>
-            <a href="/projects" className="btn btn-futuristic px-4 py-2">
-              🚀 View My Projects
-            </a>
+         <Link to="/projects" className="btn btn-futuristic px-4 py-2">
+  🚀 View My Projects
+</Link>
           </div>
         </div>
       </div>
