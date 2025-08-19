@@ -53,13 +53,11 @@ const Header: React.FC = () => {
 
               <li className="nav-item mt-2 mt-lg-0">
                 <a
-                  href="/resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-futuristic px-4 py-2"
-                >
-                  Resume
-                </a>
+  href="http://localhost:5000/api/resume"
+  className="btn btn-futuristic px-4 py-2"
+>
+  📄 Download Resume
+</a>
               </li>
             </ul>
           </div>
