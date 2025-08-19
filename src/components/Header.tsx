@@ -53,7 +53,7 @@ const Header: React.FC = () => {
 
               <li className="nav-item mt-2 mt-lg-0">
                 <a
-  href="http://localhost:5000/api/resume"
+  href="https://portfolio-backend-dpg9.onrender.com/api/resume"
   className="btn btn-futuristic px-4 py-2"
 >
   📄 Download Resume
